@@ -383,6 +383,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndk_package
 
+PRODUCT_PACKAGES += \
+    libcamera_client.vndk-sp \
+    libmedia.vndk-sp \
+    libsonivox.vndk-sp
+
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
     textclassifier.smartselection.bundle1

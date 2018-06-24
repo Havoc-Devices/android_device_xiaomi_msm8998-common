@@ -1,5 +1,10 @@
 LOCAL_PATH := $(call my-dir)
 
+VNDK_SP_LIBRARIES += \
+    libcamera_client \
+    libmedia \
+    libsonivox
+
 define add-vndk-sp-lib
 include $$(CLEAR_VARS)
 LOCAL_MODULE := $1.vndk-sp
