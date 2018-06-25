@@ -133,7 +133,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0_vendor \
     camera.device@1.0-impl \
-    camera.device@3.2-impl
+    camera.device@3.2-impl \
+    camera.msm8998
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -391,6 +392,11 @@ PRODUCT_PACKAGES += \
     libcamera_client.vndk-sp \
     libmedia.vndk-sp \
     libsonivox.vndk-sp
+
+# VNDK
+PRODUCT_PACKAGES += \
+    vndk_package \
+    vndk-sp
 
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
