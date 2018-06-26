@@ -43,16 +43,8 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 
 # Camera
-<<<<<<< HEAD
-<<<<<<< HEAD
 lib/libMiCameraHal.so:vendor/lib/libMiCameraHal.so
 lib/libskia.so:vendor/lib/libmisk.so
-=======
->>>>>>> upstream/treble
-=======
-lib/libMiCameraHal.so:vendor/lib/libMiCameraHal.so
-lib/libskia.so:vendor/lib/libmisk.so
->>>>>>> upstream/treble
 lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
 lib64/libblurbuster.so
 lib64/libfiltergenerator.so
@@ -73,14 +65,7 @@ lib64/libjni_ubifocus.so
 lib64/libseestraight.so
 lib64/libtrueportrait.so
 lib64/libtruescanner.so
-<<<<<<< HEAD
-<<<<<<< HEAD
 vendor/lib/hw/camera.msm8998.so
-=======
->>>>>>> upstream/treble
-=======
-vendor/lib/hw/camera.msm8998.so
->>>>>>> upstream/treble
 vendor/lib/lib_lowlight.so
 vendor/lib/lib_lowlight_dxo.so
 vendor/lib/libarcsoft_beauty_shot.so
@@ -96,6 +81,7 @@ vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
+vendor/lib/libmm-qcamera.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_frame_algorithm.so
@@ -130,6 +116,7 @@ vendor/lib/libmmcamera_hvx_grid_sum.so
 vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
 vendor/lib/libmmcamera_imglib_faceproc_adspstub2.so
+vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_llvd.so
 vendor/lib/libmmcamera_optizoom_lib.so
 vendor/lib/libmmcamera_paaf_lib.so
@@ -148,10 +135,14 @@ vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmjpeg.so
+vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
+vendor/lib/libmorpho_easy_hdr.so
+vendor/lib/libmorpho_hdr_checker.so
 vendor/lib/libmpbase.so
 vendor/lib/liboptizoom.so
+vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
@@ -447,6 +438,7 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # QMI
+etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
 etc/permissions/qti_permissions.xml
 lib64/libqminvapi.so:vendor/lib64/libqminvapi.so
 vendor/bin/irsc_util
