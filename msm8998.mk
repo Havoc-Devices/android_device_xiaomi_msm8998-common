@@ -398,6 +398,10 @@ PRODUCT_PACKAGES += \
     vndk_package \
     vndk-sp
 
+# VNDK
+PRODUCT_PACKAGES += \
+    vndk_package
+
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
     textclassifier.smartselection.bundle1

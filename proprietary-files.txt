@@ -44,9 +44,14 @@ vendor/lib64/libbtnv.so
 
 # Camera
 <<<<<<< HEAD
+<<<<<<< HEAD
 lib/libMiCameraHal.so:vendor/lib/libMiCameraHal.so
 lib/libskia.so:vendor/lib/libmisk.so
 =======
+>>>>>>> upstream/treble
+=======
+lib/libMiCameraHal.so:vendor/lib/libMiCameraHal.so
+lib/libskia.so:vendor/lib/libmisk.so
 >>>>>>> upstream/treble
 lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
 lib64/libblurbuster.so
@@ -69,8 +74,12 @@ lib64/libseestraight.so
 lib64/libtrueportrait.so
 lib64/libtruescanner.so
 <<<<<<< HEAD
+<<<<<<< HEAD
 vendor/lib/hw/camera.msm8998.so
 =======
+>>>>>>> upstream/treble
+=======
+vendor/lib/hw/camera.msm8998.so
 >>>>>>> upstream/treble
 vendor/lib/lib_lowlight.so
 vendor/lib/lib_lowlight_dxo.so
