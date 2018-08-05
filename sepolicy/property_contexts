@@ -18,9 +18,18 @@ sys.fake_bs_flag1                                             u:object_r:system_
 # Sensors
 sys.panel.                                                    u:object_r:sensors_panel_prop:s0
 
+# Spectrum
+persist.spectrum.profile                                      u:object_r:default_prop:s0
+
 # Qseecomd
 sys.listeners.registered                                      u:object_r:vendor_tee_listener_prop:s0
 
 # Thermal engine
 persist.sys.thermal.                                          u:object_r:thermal_prop:s0
 sys.thermal.                                                  u:object_r:thermal_prop:s0
+
+# Camera
+#persist.camera.                                               u:object_r:camera_prop:s0
+
+# Spectrum
+#persist.spectrum.profile                                      u:object_r:default_prop:s0
